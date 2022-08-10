@@ -1,7 +1,7 @@
 # relayerv2-for-STRIDE-
 Merhabalar,bugün Stride TestNet için RelayerV2 aktarıcıyı yükleyip çalıştıracağız.Unutmamız gereken ilk önemli konu elimize fullnode çalışan(full sync) iki cahin olmalıdır.
 
- 1.Stride Node 2.Gaia Node  
+ **1.**Stride Node **2.**Gaia Node  
  
  Aşağıdaki kurulum adımları yukarıda yazılan şarlar dahilinde uygulanmalıdır.
  
