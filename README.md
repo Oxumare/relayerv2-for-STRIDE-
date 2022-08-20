@@ -1,5 +1,5 @@
 # relayerv2-for-STRIDE-
-Merhabalar,bugün Stride TestNet için RelayerV2 aktarıcıyı yükleyip çalıştıracağız.Unutmamız gereken ilk önemli konu elimize fullnode çalışan(full sync) iki cahin olmalıdır.
+Merhabalar,bugün Stride TestNet için RelayerV2 aktarıcıyı yükleyip çalıştıracağız.Unutmamız gereken ilk önemli konu elimize fullnode çalışan(full sync) iki chain olmalıdır.
 
  **1.Stride Node   2.Gaia Node**
  
@@ -98,7 +98,7 @@ sudo tee $HOME/.relayer/chains/stride.json > /dev/null <<EOF
   "type": "cosmos",
   "value": {
     "key": "wallet",
-    "chain-id": "STRIDE-TESTNET-2",
+    "chain-id": "STRIDE-TESTNET-4",
     "rpc-addr": "http://${STRIDE_RPC_ADDR}",
     "account-prefix": "stride",
     "keyring-backend": "test",
@@ -155,7 +155,7 @@ rly chains list
 Eğer işlemlerimiz başarılı ise aşağıdaki çıktıyı almalıyız;
 
 ```1: GAIA             -> type(cosmos) key(✘) bal(✘) path(✘)```
-```2: STRIDE-TESTNET-2 -> type(cosmos) key(✘) bal(✘) path(✘)```
+```2: STRIDE-TESTNET-4 -> type(cosmos) key(✘) bal(✘) path(✘)```
 
 
 **Cüzdanlarımzı aktarıcıya yükleyelim**
@@ -180,7 +180,7 @@ rly q balance gaia
 sudo tee $HOME/.relayer/paths/stride-gaia.json > /dev/null <<EOF
 {
   "src": {
-    "chain-id": "STRIDE-TESTNET-2",
+    "chain-id": "STRIDE-TESTNET-4",
     "client-id": "07-tendermint-0",
     "connection-id": "connection-0"
   },
@@ -200,7 +200,7 @@ EOF
 Yol ekleyelim;
 
 ```
-rly paths add STRIDE-TESTNET-2 GAIA stride-gaia --file $HOME/.relayer/paths/stride-gaia.json
+rly paths add STRIDE-TESTNET-4 GAIA stride-gaia --file $HOME/.relayer/paths/stride-gaia.json
 ```
 
 Bu yolu kontrol edelim;
@@ -211,7 +211,7 @@ rly paths list
 
 Eğer işlemlerimiz başarılı ise aşağıdaki çıktıyı almalıyız;
 
-```0: stride-gaia -> chns(✔) clnts(✔) conn(✔) (STRIDE-TESTNET-2<>GAIA)```
+```0: stride-gaia -> chns(✔) clnts(✔) conn(✔) (STRIDE-TESTNET-4<>GAIA)```
 
 **Hizmeti oluşturalım**
 
