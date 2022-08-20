@@ -3,7 +3,7 @@ Merhabalar,bugün Stride TestNet için RelayerV2 aktarıcıyı yükleyip çalı�
 
  **1.Stride Node   2.Gaia Node**
  
- Aşağıdaki kurulum adımları yukarıda yazılan şarlar dahilinde uygulanmalıdır.
+ Aşağıdaki kurulum adımları yukarıda yazılan şartlar dahilinde uygulanmalıdır.
  
  İşlemlerimize sırasıyla başlayalım;
 
