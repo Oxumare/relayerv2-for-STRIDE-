@@ -261,5 +261,9 @@ rly transact transfer stride gaia 1000ustrd cosmosadresiniziyazın channel-0 --p
 rly transact transfer gaia stride 1000uatom strideadresiniziyazın channel-0 --path stride-gaia
 ```
 
+İşlemleriniz başarılı şekilde gerçekleşirse aşağıdaki görntüye sahip olacaktır.Stride explorerden kontrol ediniz.
+
+![image](https://ibb.co/Ypt6B2Q/to/img.png)
+
 
 
