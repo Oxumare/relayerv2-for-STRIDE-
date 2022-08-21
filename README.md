@@ -263,9 +263,10 @@ rly transact transfer gaia stride 1000uatom strideadresiniziyazın channel-0 --p
 
 İşlemleriniz başarılı şekilde gerçekleşirse aşağıdaki görntüye sahip olacaktır.Stride explorerden kontrol ediniz.
 
-![image](https://user-images.githubusercontent.com/43583832/185770248-8a808eb4-d278-4092-9f9a-53f5a52269c1.png)
+![11](https://user-images.githubusercontent.com/43583832/185770322-2b4b01d8-8435-4d3f-8b1b-f13e8fe785c9.png)
 
-![image2](https://user-images.githubusercontent.com/43583832/185770271-4c7098c9-02c2-4957-adc7-bba8c63048ab.png)
+![22](https://user-images.githubusercontent.com/43583832/185770424-44824b76-cb24-4018-95a7-7e02e9f4a35d.png)
+
 
 
 
